@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style src="./style.css"></style>
+</head>
+<body>
+    <h2>My First Page</h2>
+
+    <h3>This is a heading</h3>
+
+    <h4>Even smaller heading!</h4>
+
+    <button id="btn" onclick="myFunction()">Try this button</button>
+
+    <p id="para1">14 should come here</p>
+    <p id="para2">28 should come here</p>
+    <p id="para3">28 should come here</p>
+
+    <div>Hello world</div>
+
+    <p>Not hidden</p>
+    <p hidden>Hidden</p>
+    <p id="hiddenElem">For sure hidden</p>
+
+    <div class="chart">
+        <div class="chart-bar">
+            <div class="chart-bar__innner">
+                <div class="chart-bar__fill"></div>
+            </div>
+            <div class="chart-bar__label">Jan</div>
+        </div>
+    </div>
+
+    <script>
+
+        // function myFunction() {
+        //     document.getElementById("para1").innerHTML = 5+9;
+        //     document.getElementById("para2").innerHTML = 9+19;
+        // }
+
+        // var a =  prompt("What is your age?")
+        // document.getElementById("para2").innerHTML = a;
+        // console.log(a);
+        
+        // if(a>=18 && a<=60) {
+        //     alert("You are eligible for voting")
+        // }
+        // else {
+        //     alert("You are not eligible for voting")
+        // }
+        // alert(document.documentElement);
+
+        let div = document.querySelector('div');
+
+        div.outerHTML = '<p>Hi There!!!!</p>';
+
+        // alert(div.outerHTML);
+
+        hiddenElem.hidden = false;
+
+        // setInterval(() => hiddenElem.hidden = !hiddenElem.hidden, 350);
+    
+    </script>
+
+    <script src="/arrowfunctions.js"></script>
+</body>
+
+</html>
